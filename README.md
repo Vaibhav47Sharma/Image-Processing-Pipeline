@@ -39,14 +39,14 @@ e.g. 1. Input array size – (220, 224). So, one image will be of size (220, 220
 e.g. 2. Input array size – (220, 330). So, one image will be of size (220, 220). Now 110 / 220 = 0.5 > 0.2. Hence, we will get one more image having the size (220, 220). The first image takes the slice [0:220, 0:220] while the second one takes the slice [0:220, 110:330]. These two slices are taken from the original image matrix. After re-sizing, the output will be 2 images, each having size (224, 224). 
 Once all the images are resized, they are stored on the hard drive in the “imgs_converted” directory. This directory is at the same level as the original image directory. 
 4)	ImageAugmentationPipeline.py- Extends the basic pipeline with image augmentation techniques. It picks all the images from the “imgs_converted” directory. For every image it performs the following 10 augmentations) 
-a.	Vertical mirror image- If the image we get has been vertically inverted.
-b.	Horizontal mirror image- The image might be clicked from the front or the back camera. The same information captured by the two cameras are horizontal mirror images of each other. 
-c.	Translation by 20 pixels to right- Shifts the content of the image to right by 20 pixels. 
-d.	Translation by 20 pixels to left- Shifts the content of the image to left by 20 pixels.
-e.	Translation by 20 pixels to up- Up shifts the content of the image by 20 pixels.
-f.	Translation by 20 pixels to down- Down shifts the content of the image by 20 pixels.
-g.	Blurring each pixel with a radius of 2 pixel not including the center pixel with a standard deviation of 1 pixel- This will take care of the camera quality. If the camera quality is not too good, we might get blurred images. 
-h.	900 rotation- The angle of 90 is chosen as all the images are square, so the concept of portrait/ landscape will be handled by this. 
+a.	Vertical mirror image- If the image we get has been vertically inverted. <br/>
+b.	Horizontal mirror image- The image might be clicked from the front or the back camera. The same information captured by the two cameras are horizontal mirror images of each other. <br/>
+c.	Translation by 20 pixels to right- Shifts the content of the image to right by 20 pixels. <br/>
+d.	Translation by 20 pixels to left- Shifts the content of the image to left by 20 pixels. <br/>
+e.	Translation by 20 pixels to up- Up shifts the content of the image by 20 pixels. <br/>
+f.	Translation by 20 pixels to down- Down shifts the content of the image by 20 pixels. <br/>
+g.	Blurring each pixel with a radius of 2 pixel not including the center pixel with a standard deviation of 1 pixel- This will take care of the camera quality. If the camera quality is not too good, we might get blurred images. <br/>
+h.	900 rotation- The angle of 90 is chosen as all the images are square, so the concept of portrait/ landscape will be handled by this. <br/>
 i.	 Random noise is added to every pixel- To get images that might not be of high quality. <br/>
 j.	Image is center cropped to half the original dimensions. This cropped image is then resized to original dimensions. This will take care of the cases where an image would be zoomed in.
 
