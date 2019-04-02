@@ -64,6 +64,18 @@ The results after running the basic pipeline(ImageProcessingPipeline.py) is-<br/
 ![Alt text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0.jpg)
 ![Alt text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_1.jpg)
 
-
+##### Output- image augemntation pipeline(ImageAugmentationPipeline.py)<br/>
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T0.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T1.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T2.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T3.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T4.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T5.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T6.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T7.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T8.jpg.jpg)
+![Alt Text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0_T9.jpg.jpg)
+<br/>
+and so on....
 
 #### All the images have been downloaded from https://unsplash.com/
