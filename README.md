@@ -51,5 +51,19 @@ h.	**90 degree rotation**- The angle of 90 is chosen as all the images are squar
 i.	 **Random noise** is added to every pixel- To get images that might not be of high quality. <br/>
 j.	**Image is center cropped** to half the original dimensions. This cropped image is then resized to original dimensions. This will take care of the cases where an image would be zoomed in.
 
-
 Once all the images are augmented/ transformed, they are stored on the hard drive, added to the **imgs_converted** directory. This directory is at the same level as the original image directory.
+
+#### Results
+
+##### Input
+For the only image of desert landscape-<br/>
+![Alt text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_de/desert/photo-1470847355775-e0e3c35a9a2c.jpg?raw=true)
+
+##### Output- basic pipeline
+The results after running the basic pipeline(ImageProcessingPipeline.py) is-<br/>
+![Alt text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_0.jpg)
+![Alt text](https://github.com/Vaibhav47Sharma/Image-Processing-Pipeline/blob/master/data/imgs_converted/desert/photo-1470847355775-e0e3c35a9a2c_1.jpg)
+
+
+
+#### All the images have been downloaded from https://unsplash.com/
