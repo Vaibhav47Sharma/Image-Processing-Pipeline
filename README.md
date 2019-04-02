@@ -48,7 +48,7 @@ f.	Translation by 20 pixels to down- Down shifts the content of the image by 20 
 g.	Blurring each pixel with a radius of 2 pixel not including the center pixel with a standard deviation of 1 pixel- This will take care of the camera quality. If the camera quality is not too good, we might get blurred images. 
 h.	900 rotation- The angle of 90 is chosen as all the images are square, so the concept of portrait/ landscape will be handled by this. 
 i.	 Random noise is added to every pixel- To get images that might not be of high quality. 
-j.	Image is center cropped to half the original dimensions. This cropped image is then resized to original dimensions. This will take care of the cases where an image would be zoomed in.
+\nj.	Image is center cropped to half the original dimensions. This cropped image is then resized to original dimensions. This will take care of the cases where an image would be zoomed in.
 
 
 Once all the images are augmented/ transformed, they are stored on the hard drive, added to
