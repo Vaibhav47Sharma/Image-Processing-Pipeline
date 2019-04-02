@@ -38,7 +38,7 @@ optional arguments width(int), height(int), and a threshold(float). E.g. python
 e.g. 1. Input array size – (220, 224). So, one image will be of size (220, 220). Now 4 / 220 = 0.018 < 0.2. Hence, the output will be only 1 image of size (224, 224). We get this by resizing the (220, 220) image we got from the previous step. <br/>
 e.g. 2. Input array size – (220, 330). So, one image will be of size (220, 220). Now 110 / 220 = 0.5 > 0.2. Hence, we will get one more image having the size (220, 220). The first image takes the slice [0:220, 0:220] while the second one takes the slice [0:220, 110:330]. These two slices are taken from the original image matrix. After re-sizing, the output will be 2 images, each having size (224, 224). 
 Once all the images are resized, they are stored on the hard drive in the “imgs_converted” directory. This directory is at the same level as the original image directory. 
-4)	**ImageAugmentationPipeline.py**- Extends the basic pipeline with image augmentation techniques. It picks all the images from the “imgs_converted” directory. For every image it performs the following 10 augmentations) 
+4)	**ImageAugmentationPipeline.py**- Extends the basic pipeline with image augmentation techniques. It picks all the images from the “imgs_converted” directory. For every image it performs the following 10 augmentations) <br/>
 a.	**Vertical mirror image**- If the image we get has been vertically inverted. <br/>
 b.	**Horizontal mirror image**- The image might be clicked from the front or the back camera. The same information captured by the two cameras are horizontal mirror images of each other. <br/>
 c.	**Translation by 20 pixels to right**- Shifts the content of the image to right by 20 pixels. <br/>
