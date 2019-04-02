@@ -1,0 +1,5 @@
+numpy==1.15.4
+Pillow==5.4.1
+exifread==2.1.2
+folium==0.8.2
+wand==0.5.1
