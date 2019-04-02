@@ -2,6 +2,7 @@
 
 ## A pipeline to deliver imagery to an image processing model
 Images are placed in data\imgs_de folder. Each within it's label folder.
+Also install **image magick** as per the following documentation- http://docs.wandpy.org/en/latest/guide/install.html#install-imagemagick-on-windows
 #### 1. An image processing pipeline. This pipeline prepares raw jpegs for input into a machine learning model. The model takes in an input of dimension (224, 224, 3) by default
 #### 2. The basic pipeline with image augmentation techniques.
 #### 3. Map the locations of the images on a world map if the images contain exif information
